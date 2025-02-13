@@ -663,14 +663,66 @@ body{
 
 }
 
-@media screen and (max-width: 576px) {
-    
-    .right-section .player .content .desc{
+
+.right-section .player .content .desc {
+    display: block;
+}
+
+.right-section .weekly .item {
+    width: auto;
+}
+
+
+@media screen and (max-width: 320px) {
+    .right-section .player .content .desc {
         display: none;
     }
 
-    .right-section .weekly .item{
+    .right-section .weekly .item {
         width: 100%;
     }
+}
 
+
+@media screen and (max-width: 375px) {
+    .right-section .player .content .desc {
+        display: none;
+    }
+
+    .right-section .weekly .item {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .right-section .player .content .desc {
+        display: none;
+    }
+
+    .right-section .weekly .item {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .right-section .player .content .desc {
+        display: none;
+    }
+
+    .right-section .weekly .item {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .right-section .player .content .desc {
+        display: none;
+    }
+
+    .right-section .weekly .item {
+        width: 100%;
+    }
 }
